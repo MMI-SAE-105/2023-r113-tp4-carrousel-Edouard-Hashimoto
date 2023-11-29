@@ -14,7 +14,9 @@ img {
 
 .carrousel_parent-ecrans {
     /* aligne horizontalement les enfants */
+    display: flex;
     /* largeur du parent */
+    width: 100%;
 
 }
 
