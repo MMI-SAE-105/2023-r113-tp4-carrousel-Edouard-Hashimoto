@@ -21,6 +21,8 @@ img {
     overflow-x: scroll;
     /* animation de défilement */
     scroll-behavior: smooth;
+    /* permet de scroller par blocs */
+    scroll-snap-type: x mandatory;
 }
 
 .carrousel_ecran {
@@ -28,9 +30,12 @@ img {
     flex: none;
     /* permet de garder toute la largeur du parent */
     width: 100%;
+    /* aligne les enfants par blocs */
+    scroll-snap-align: start;
 }
 
 .carrousel_ecran figure {
     /* enlève les marges par défaut */
     margin: 0;
 }
+
