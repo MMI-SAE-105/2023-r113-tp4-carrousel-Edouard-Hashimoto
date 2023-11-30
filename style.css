@@ -84,6 +84,6 @@ img {
 }
 
 .actif {
-    color: red;
-    /* Example: make the text color red */
+    color : black;
+    background-color: #c2c3c1;
 }
