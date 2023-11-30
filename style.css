@@ -37,7 +37,11 @@ img {
 .carrousel_ecran figure {
     /* enlève les marges par défaut */
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .carrousel {
     position: relative;
@@ -87,3 +91,4 @@ img {
     color : black;
     background-color: #c2c3c1;
 }
+
